@@ -1,4 +1,4 @@
-This project demonstrates simple semantic search on text files. It has been tested on Ubuntu 24.04 LTS and Python versions 3.12.3 an 3.10.2.
+This project demonstrates simple semantic search on text files. It has been tested on Ubuntu 24.04 LTS and Python versions 3.12.3 an 3.10.12.
 
 New text files can be added to the 'text_files/' directory. The query that is being searched can be altered in the 'semantic_search.py' file. Currently, the top 3 documents are displayed in the
 results. This can also be changed by modifying the 'top_k' parameter in the 'semantic_search' function.
