@@ -9,4 +9,4 @@ Steps to run the program:
 
 2- Run the script semantic_search.py
 
-3- Results will show a list of documents that match the query semantically. along with a confidence score for each matched document
+3- Results will show a list of documents that match the query semantically. along with a confidence score for each matched document.
