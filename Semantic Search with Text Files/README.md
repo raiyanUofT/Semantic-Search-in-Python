@@ -1,5 +1,6 @@
-This project demonstrates simple semantic search on text files. New text files can be added to the 'text_files/' directory.
-The query that is being searched can be altered in the 'semantic_search.py' file. Currently, the top 3 documents are displayed in the
+This project demonstrates simple semantic search on text files. It has been tested on Ubuntu 24.04 LTS and Python 3.12.3.
+
+New text files can be added to the 'text_files/' directory. The query that is being searched can be altered in the 'semantic_search.py' file. Currently, the top 3 documents are displayed in the
 results. This can also be changed by modifying the 'top_k' parameter in the 'semantic_search' function.
 
 Steps to run the program:
