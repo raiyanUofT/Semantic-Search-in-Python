@@ -15,7 +15,7 @@ along with a confidence score for each matched document.
 OPTIONAL
 
 4- To test if Elasticsearch is working, run the script test_elasticsearch.py. 
-If ElasticSearch has been correctly installed and started, there should see output indicating that 
+If ElasticSearch has been correctly installed and started, there should be output indicating that 
 the connection to ElasticSearch was successful, a document was indexed, and the document was retrieved 
 and searched.
 
