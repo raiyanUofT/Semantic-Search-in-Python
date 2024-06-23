@@ -28,7 +28,7 @@ es.indices.create(index=index_name, body=mapping)
 model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 # Directory containing the text files
-text_files_directory = 'text_files/'
+text_files_directory = '../text_files/'
 
 # Index documents from text files
 for i, filename in enumerate(os.listdir(text_files_directory)):

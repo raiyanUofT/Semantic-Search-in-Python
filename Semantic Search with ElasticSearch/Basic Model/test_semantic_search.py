@@ -6,7 +6,7 @@ import numpy as np
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Directory containing text files
-text_dir = 'text_files'
+text_dir = '../text_files'
 
 # Read text files
 documents = []

@@ -1,5 +1,7 @@
 elasticsearch
-transformers
+elasticsearch_dsl
 torch
+transformers
+accelerate -U
 numpy
 datasets
