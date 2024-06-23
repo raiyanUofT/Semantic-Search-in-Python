@@ -6,6 +6,7 @@ from rich import print
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
+import numpy as np
 
 # Initialize Elasticsearch
 es = Elasticsearch("http://localhost:9200")
@@ -15,14 +16,15 @@ model = SentenceTransformer('sentence-transformers/sentence-t5-base')
 
 # Function to perform semantic search
 def semantic_search(query, model, es, index_name, threshold=1.5, top_n=5):
-    query_embedding = model.encode(query).tolist()
+    query_embedding = model.encode(query)
+    normalized_query_embedding = query_embedding / np.linalg.norm(query_embedding)  # Normalize the query embedding
 
     s = Search(using=es, index=index_name).query(
         ScriptScore(
             query={"match_all": {}},
             script={
                 "source": "cosineSimilarity(params.query_vector, 'embedding') + 1.0",
-                "params": {"query_vector": query_embedding}
+                "params": {"query_vector": normalized_query_embedding.tolist()}
             }
         )
     )

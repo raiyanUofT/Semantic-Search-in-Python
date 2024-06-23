@@ -1,8 +1,9 @@
 import os
 import pandas as pd
 from elasticsearch import Elasticsearch, helpers
-from sentence_transformers import SentenceTransformer, InputExample, losses, models
+from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader
+import numpy as np
 
 # Initialize Elasticsearch
 es = Elasticsearch("http://localhost:9200")
@@ -47,12 +48,13 @@ for i, filename in enumerate(os.listdir(text_files_directory)):
         with open(os.path.join(text_files_directory, filename), 'r', encoding='utf-8') as file:
             content = file.read()
             try:
-                embedding = model.encode(content).tolist()
+                embedding = model.encode(content)
+                normalized_embedding = embedding / np.linalg.norm(embedding)  # Normalize the embedding
                 documents.append({
                     "_index": index_name,
                     "_source": {
                         "content": content,
-                        "embedding": embedding  # Convert to list for JSON serialization
+                        "embedding": normalized_embedding.tolist()  # Convert to list for JSON serialization
                     }
                 })
                 print(f"Indexed {filename}")
