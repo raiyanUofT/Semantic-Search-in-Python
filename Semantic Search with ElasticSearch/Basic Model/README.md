@@ -21,4 +21,4 @@ and searched.
 
 5- To test semantic search without using ElasticSearch, run the python script test_semantic_search.py.
 The query can be modified inside the script. For details, look at the 'Semantic Search with Text Files' 
-directory that is outside this current directory.
+directory.
