@@ -20,10 +20,10 @@ def keyword_search(query, top_k=5):
             "size": top_k,
             "query": {
                 "match": {
-                    "title": query  # Change "text" to "title" or other relevant field
+                    "text": query
                 }
             },
-            "_source": {"includes": ["title", "summary"]}
+            "_source": {"includes": ["title", "text"]}
         }
     )
     results = response['hits']['hits']
@@ -46,7 +46,7 @@ def semantic_search(query, top_k=5):
         body={
             "size": top_k,
             "query": script_query,
-            "_source": {"includes": ["title", "summary"]}
+            "_source": {"includes": ["title", "text"]}
         }
     )
     results = response['hits']['hits']
