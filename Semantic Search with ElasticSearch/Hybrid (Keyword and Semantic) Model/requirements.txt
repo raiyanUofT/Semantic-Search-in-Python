@@ -1,0 +1,8 @@
+elasticsearch
+elasticsearch_dsl
+torch
+transformers[torch]
+sentence_transformers
+numpy
+datasets
+rich
