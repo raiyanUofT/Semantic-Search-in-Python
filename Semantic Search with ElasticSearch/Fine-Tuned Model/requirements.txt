@@ -5,3 +5,4 @@ transformers
 accelerate -U
 numpy
 datasets
+rich
