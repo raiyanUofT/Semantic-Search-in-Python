@@ -1,8 +1,8 @@
 elasticsearch
 elasticsearch_dsl
 torch
-transformers
-accelerate -U
+transformers[torch]
+sentence_transformers
 numpy
 datasets
 rich
