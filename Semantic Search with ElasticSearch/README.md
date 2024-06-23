@@ -1,4 +1,4 @@
-This project demonstrates simple semantic search with ElasticSearch. It has been tested on Ubuntu 24.04 LTS and Python 3.10.12.
+This project demonstrates simple semantic search with ElasticSearch. It has been tested on Ubuntu 22.04 LTS and Python 3.10.12.
 
 New text files can be added to the 'text_files/' directory. 
 The query that is being searched can be altered in the 'semantic_search_with_elasticsearch.py' file.
