@@ -15,22 +15,13 @@ def index():
         query = request.form['query']
         search_type = request.form['search_type']
         results = []
-        unique_docs = set()
 
         if search_type == 'keyword':
-            keyword_results = keyword_search(query)
-            keyword_results = normalize_scores(keyword_results)
-            for result in keyword_results:
-                if result['_source']['filename'] not in unique_docs:
-                    unique_docs.add(result['_source']['filename'])
-                    results.append(result)
+            results = keyword_search(query)
+            results = normalize_scores(results)
         elif search_type == 'semantic':
-            semantic_results = semantic_search(query)
-            semantic_results = normalize_scores(semantic_results)
-            for result in semantic_results:
-                if result['_source']['filename'] not in unique_docs:
-                    unique_docs.add(result['_source']['filename'])
-                    results.append(result)
+            results = semantic_search(query)
+            results = normalize_scores(results)
 
         # Sort results by score in descending order
         results = sorted(results, key=lambda x: x['_score'], reverse=True)[:5]

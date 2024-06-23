@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<records xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns1="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0002</ns0:identifier><ns0:datestamp>2008-12-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Sparsity-certifying Graph Decompositions</dc:title><dc:creator>Streinu, Ileana</dc:creator><dc:creator>Theran, Louis</dc:creator><dc:subject>Mathematics - Combinatorics</dc:subject><dc:subject>Computer Science - Computational Geometry</dc:subject><dc:subject>05C85</dc:subject><dc:subject>05C70</dc:subject><dc:subject>68R10</dc:subject><dc:subject>05B35</dc:subject><dc:description>  We describe a new algorithm, the $(k,\ell)$-pebble game with colors, and use
+it obtain a characterization of the family of $(k,\ell)$-sparse graphs and
+algorithmic solutions to a family of problems concerning tree decompositions of
+graphs. Special instances of sparse graphs appear in rigidity theory and have
+received increased attention in recent years. In particular, our colored
+pebbles generalize and strengthen the previous results of Lee and Streinu and
+give a new proof of the Tutte-Nash-Williams characterization of arboricity. We
+also present a new decomposition that certifies sparsity based on the
+$(k,\ell)$-pebble game with colors. Our work also exposes connections between
+pebble game algorithms and previous sparse graph algorithms by Gabow, Gabow and
+Westermann and Hendrickson.
+</dc:description><dc:description>Comment: To appear in Graphs and Combinatorics</dc:description><dc:date>2007-03-30</dc:date><dc:date>2008-12-13</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0002</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0046</ns0:identifier><ns0:datestamp>2009-11-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>A limit relation for entropy and channel capacity per unit cost</dc:title><dc:creator>Csiszar, I.</dc:creator><dc:creator>Hiai, F.</dc:creator><dc:creator>Petz, D.</dc:creator><dc:subject>Quantum Physics</dc:subject><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  In a quantum mechanical model, Diosi, Feldmann and Kosloff arrived at a
+conjecture stating that the limit of the entropy of certain mixtures is the
+relative entropy as system size goes to infinity. The conjecture is proven in
+this paper for density matrices. The first proof is analytic and uses the
+quantum law of large numbers. The second one clarifies the relation to channel
+capacity per unit cost for classical-quantum channels. Both proofs lead to
+generalization of the conjecture.
+</dc:description><dc:description>Comment: LATEX file, 11 pages</dc:description><dc:date>2007-04-01</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0046</dc:identifier><dc:identifier>J. Math. Phys. 48(2007), 092102.</dc:identifier><dc:identifier>doi:10.1063/1.2779138</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0047</ns0:identifier><ns0:datestamp>2009-09-29</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Intelligent location of simultaneously active acoustic emission sources:
+  Part I</dc:title><dc:creator>Kosel, T.</dc:creator><dc:creator>Grabec, I.</dc:creator><dc:subject>Computer Science - Neural and Evolutionary Computing</dc:subject><dc:subject>Computer Science - Artificial Intelligence</dc:subject><dc:description>  The intelligent acoustic emission locator is described in Part I, while Part
+II discusses blind source separation, time delay estimation and location of two
+simultaneously active continuous acoustic emission sources.
+  The location of acoustic emission on complicated aircraft frame structures is
+a difficult problem of non-destructive testing. This article describes an
+intelligent acoustic emission source locator. The intelligent locator comprises
+a sensor antenna and a general regression neural network, which solves the
+location problem based on learning from examples. Locator performance was
+tested on different test specimens. Tests have shown that the accuracy of
+location depends on sound velocity and attenuation in the specimen, the
+dimensions of the tested area, and the properties of stored data. The location
+accuracy achieved by the intelligent locator is comparable to that obtained by
+the conventional triangulation method, while the applicability of the
+intelligent locator is more general since analysis of sonic ray paths is
+avoided. This is a promising method for non-destructive testing of aircraft
+frame structures by the acoustic emission method.
+</dc:description><dc:description>Comment: 5 pages, 5 eps figures, uses IEEEtran.cls</dc:description><dc:date>2007-04-01</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0047</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0050</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Intelligent location of simultaneously active acoustic emission sources:
+  Part II</dc:title><dc:creator>Kosel, T.</dc:creator><dc:creator>Grabec, I.</dc:creator><dc:subject>Computer Science - Neural and Evolutionary Computing</dc:subject><dc:subject>Computer Science - Artificial Intelligence</dc:subject><dc:description>  Part I describes an intelligent acoustic emission locator, while Part II
+discusses blind source separation, time delay estimation and location of two
+continuous acoustic emission sources.
+  Acoustic emission (AE) analysis is used for characterization and location of
+developing defects in materials. AE sources often generate a mixture of various
+statistically independent signals. A difficult problem of AE analysis is
+separation and characterization of signal components when the signals from
+various sources and the mode of mixing are unknown. Recently, blind source
+separation (BSS) by independent component analysis (ICA) has been used to solve
+these problems. The purpose of this paper is to demonstrate the applicability
+of ICA to locate two independent simultaneously active acoustic emission
+sources on an aluminum band specimen. The method is promising for
+non-destructive testing of aircraft frame structures by acoustic emission
+analysis.
+</dc:description><dc:description>Comment: 5 pages, 7 eps figures, uses IEEEtran.cls</dc:description><dc:date>2007-04-01</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0050</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0062</ns0:identifier><ns0:datestamp>2010-01-25</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>On-line Viterbi Algorithm and Its Relationship to Random Walks</dc:title><dc:creator>Šrámek, Rastislav</dc:creator><dc:creator>Brejová, Broňa</dc:creator><dc:creator>Vinař, Tomáš</dc:creator><dc:subject>Computer Science - Data Structures and Algorithms</dc:subject><dc:subject>G.3</dc:subject><dc:subject>E.1</dc:subject><dc:subject>F.1.2</dc:subject><dc:subject>J.3</dc:subject><dc:description>  In this paper, we introduce the on-line Viterbi algorithm for decoding hidden
+Markov models (HMMs) in much smaller than linear space. Our analysis on
+two-state HMMs suggests that the expected maximum memory used to decode
+sequence of length $n$ with $m$-state HMM can be as low as $\Theta(m\log n)$,
+without a significant slow-down compared to the classical Viterbi algorithm.
+Classical Viterbi algorithm requires $O(mn)$ space, which is impractical for
+analysis of long DNA sequences (such as complete human genome chromosomes) and
+for continuous data streams. We also experimentally demonstrate the performance
+of the on-line Viterbi algorithm on a simple HMM for gene finding on both
+simulated and real DNA sequences.
+</dc:description><dc:date>2007-03-31</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0062</dc:identifier><dc:identifier>Algorithms in Bioinformatics: 7th International Workshop (WABI),
+  4645 volume of Lecture Notes in Computer Science, pp. 240-251, Philadelphia,
+  PA, USA, September 2007. Springer</dc:identifier><dc:identifier>doi:10.1007/978-3-540-74126-8_23</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0090</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Real Options for Project Schedules (ROPS)</dc:title><dc:creator>Ingber, Lester</dc:creator><dc:subject>Computer Science - Computational Engineering, Finance, and Science</dc:subject><dc:subject>Condensed Matter - Statistical Mechanics</dc:subject><dc:subject>Computer Science - Mathematical Software</dc:subject><dc:subject>Mathematics - Numerical Analysis</dc:subject><dc:subject>Physics - Data Analysis, Statistics and Probability</dc:subject><dc:subject>C.4</dc:subject><dc:subject>G.1</dc:subject><dc:subject>G.1.6</dc:subject><dc:subject>G.3</dc:subject><dc:subject>J.7</dc:subject><dc:description>  Real Options for Project Schedules (ROPS) has three recursive
+sampling/optimization shells. An outer Adaptive Simulated Annealing (ASA)
+optimization shell optimizes parameters of strategic Plans containing multiple
+Projects containing ordered Tasks. A middle shell samples probability
+distributions of durations of Tasks. An inner shell samples probability
+distributions of costs of Tasks. PATHTREE is used to develop options on
+schedules.. Algorithms used for Trading in Risk Dimensions (TRD) are applied to
+develop a relative risk analysis among projects.
+</dc:description><dc:date>2007-04-01</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0090</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0098</ns0:identifier><ns0:datestamp>2009-11-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Sparsely-spread CDMA - a statistical mechanics based analysis</dc:title><dc:creator>Raymond, Jack</dc:creator><dc:creator>Saad, David</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  Sparse Code Division Multiple Access (CDMA), a variation on the standard CDMA
+method in which the spreading (signature) matrix contains only a relatively
+small number of non-zero elements, is presented and analysed using methods of
+statistical physics. The analysis provides results on the performance of
+maximum likelihood decoding for sparse spreading codes in the large system
+limit. We present results for both cases of regular and irregular spreading
+matrices for the binary additive white Gaussian noise channel (BIAWGN) with a
+comparison to the canonical (dense) random spreading code.
+</dc:description><dc:description>Comment: 23 pages, 5 figures, figure 1 amended since published version</dc:description><dc:date>2007-04-01</dc:date><dc:date>2008-04-30</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0098</dc:identifier><dc:identifier>J. Phys. A: Math. Theor. 40 No 41 (12 October 2007) 12315-12333</dc:identifier><dc:identifier>doi:10.1088/1751-8113/40/41/004</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0108</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Reducing SAT to 2-SAT</dc:title><dc:creator>Gubin, Sergey</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:subject>F.2.0</dc:subject><dc:subject>G.2.1</dc:subject><dc:subject>G.2.2</dc:subject><dc:description>  Description of a polynomial time reduction of SAT to 2-SAT of polynomial
+size.
+</dc:description><dc:description>Comment: 8 pages</dc:description><dc:date>2007-04-01</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0108</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0213</ns0:identifier><ns0:datestamp>2012-09-28</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Geometric Complexity Theory V: On deciding nonvanishing of a generalized
+  Littlewood-Richardson coefficient</dc:title><dc:creator>Narayanan, Ketan D. Mulmuley Hariharan</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:description>  This article has been withdrawn because it has been merged with the earlier
+article GCT3 (arXiv: CS/0501076 [cs.CC]) in the series. The merged article is
+now available as:
+  Geometric Complexity Theory III: on deciding nonvanishing of a
+Littlewood-Richardson Coefficient, Journal of Algebraic Combinatorics, vol. 36,
+issue 1, 2012, pp. 103-110. (Authors: Ketan Mulmuley, Hari Narayanan and Milind
+Sohoni)
+  The new article in this GCT5 slot in the series is:
+  Geometric Complexity Theory V: Equivalence between blackbox derandomization
+of polynomial identity testing and derandomization of Noether's Normalization
+Lemma, in the Proceedings of FOCS 2012 (abstract), arXiv:1209.5993 [cs.CC]
+(full version) (Author: Ketan Mulmuley)
+</dc:description><dc:description>Comment: This article has been withdrawn because it has been merged with the
+  earlier article (GCT3) in the series, and a new article appears in this GCT5
+  slot now as shown in the abstract</dc:description><dc:date>2007-04-02</dc:date><dc:date>2012-09-27</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0213</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0217</ns0:identifier><ns0:datestamp>2010-08-27</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Capacity of a Multiple-Antenna Fading Channel with a Quantized Precoding
+  Matrix</dc:title><dc:creator>Santipach, Wiroonsak</dc:creator><dc:creator>Honig, Michael L.</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  Given a multiple-input multiple-output (MIMO) channel, feedback from the
+receiver can be used to specify a transmit precoding matrix, which selectively
+activates the strongest channel modes. Here we analyze the performance of
+Random Vector Quantization (RVQ), in which the precoding matrix is selected
+from a random codebook containing independent, isotropically distributed
+entries. We assume that channel elements are i.i.d. and known to the receiver,
+which relays the optimal (rate-maximizing) precoder codebook index to the
+transmitter using B bits. We first derive the large system capacity of
+beamforming (rank-one precoding matrix) as a function of B, where large system
+refers to the limit as B and the number of transmit and receive antennas all go
+to infinity with fixed ratios. With beamforming RVQ is asymptotically optimal,
+i.e., no other quantization scheme can achieve a larger asymptotic rate. The
+performance of RVQ is also compared with that of a simpler reduced-rank scalar
+quantization scheme in which the beamformer is constrained to lie in a random
+subspace. We subsequently consider a precoding matrix with arbitrary rank, and
+approximate the asymptotic RVQ performance with optimal and linear receivers
+(matched filter and Minimum Mean Squared Error (MMSE)). Numerical examples show
+that these approximations accurately predict the performance of finite-size
+systems of interest. Given a target spectral efficiency, numerical examples
+show that the amount of feedback required by the linear MMSE receiver is only
+slightly more than that required by the optimal receiver, whereas the matched
+filter can require significantly more feedback.
+</dc:description><dc:date>2007-04-02</dc:date><dc:date>2009-02-16</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0217</dc:identifier><dc:identifier>IEEE Trans. Inf. Theory, vol. 55, no. 3, pp. 1218--1234, March
+  2009</dc:identifier><dc:identifier>doi:10.1109/TIT.2008.2011437</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0218</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>On Almost Periodicity Criteria for Morphic Sequences in Some Particular
+  Cases</dc:title><dc:creator>Pritykin, Yuri</dc:creator><dc:subject>Computer Science - Discrete Mathematics</dc:subject><dc:subject>Computer Science - Logic in Computer Science</dc:subject><dc:subject>G.2.1</dc:subject><dc:subject>F.2.2</dc:subject><dc:subject>F.4.3</dc:subject><dc:description>  In some particular cases we give criteria for morphic sequences to be almost
+periodic (=uniformly recurrent). Namely, we deal with fixed points of
+non-erasing morphisms and with automatic sequences. In both cases a
+polynomial-time algorithm solving the problem is found. A result more or less
+supporting the conjecture of decidability of the general problem is given.
+</dc:description><dc:description>Comment: 9 pages. To be presented on 11th International Conference on
+  Developments in Language Theory (DLT'2007), Turku, Finland, July 2007.</dc:description><dc:date>2007-04-02</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0218</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0229</ns0:identifier><ns0:datestamp>2009-01-22</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Geometric Complexity Theory VI: the flip via saturated and positive
+  integer programming in representation theory and algebraic geometry</dc:title><dc:creator>Mulmuley, Ketan D.</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:description>  This article belongs to a series on geometric complexity theory (GCT), an
+approach to the P vs. NP and related problems through algebraic geometry and
+representation theory. The basic principle behind this approach is called the
+flip. In essence, it reduces the negative hypothesis in complexity theory (the
+lower bound problems), such as the P vs. NP problem in characteristic zero, to
+the positive hypothesis in complexity theory (the upper bound problems):
+specifically, to showing that the problems of deciding nonvanishing of the
+fundamental structural constants in representation theory and algebraic
+geometry, such as the well known plethysm constants--or rather certain relaxed
+forms of these decision probelms--belong to the complexity class P. In this
+article, we suggest a plan for implementing the flip, i.e., for showing that
+these relaxed decision problems belong to P. This is based on the reduction of
+the preceding complexity-theoretic positive hypotheses to mathematical
+positivity hypotheses: specifically, to showing that there exist positive
+formulae--i.e. formulae with nonnegative coefficients--for the structural
+constants under consideration and certain functions associated with them. These
+turn out be intimately related to the similar positivity properties of the
+Kazhdan-Lusztig polynomials and the multiplicative structural constants of the
+canonical (global crystal) bases in the theory of Drinfeld-Jimbo quantum
+groups. The known proofs of these positivity properties depend on the Riemann
+hypothesis over finite fields and the related results. Thus the reduction here,
+in conjunction with the flip, in essence, says that the validity of the P vs.
+NP conjecture in characteristic zero is intimately linked to the Riemann
+hypothesis over finite fields and related problems.
+</dc:description><dc:description>Comment: 139 pages. Corrects error in the conjectural saturation hypothesis
+  (SH) in the earlier version, which was pointed out in a recent paper of
+  Briand et al (arXIv:0810.3163v1 [math.CO])</dc:description><dc:date>2007-04-02</dc:date><dc:date>2009-01-22</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0229</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0282</ns0:identifier><ns0:datestamp>2007-07-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>On Punctured Pragmatic Space-Time Codes in Block Fading Channel</dc:title><dc:creator>Bandi, Samuele</dc:creator><dc:creator>Stabellini, Luca</dc:creator><dc:creator>Conti, Andrea</dc:creator><dc:creator>Tralli, Velio</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:description>  This paper considers the use of punctured convolutional codes to obtain
+pragmatic space-time trellis codes over block-fading channel. We show that good
+performance can be achieved even when puncturation is adopted and that we can
+still employ the same Viterbi decoder of the convolutional mother code by using
+approximated metrics without increasing the complexity of the decoding
+operations.
+</dc:description><dc:date>2007-04-02</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0282</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0301</ns0:identifier><ns0:datestamp>2009-04-19</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Differential Recursion and Differentially Algebraic Functions</dc:title><dc:creator>Kawamura, Akitoshi</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:subject>F.1.1</dc:subject><dc:description>  Moore introduced a class of real-valued "recursive" functions by analogy with
+Kleene's formulation of the standard recursive functions. While his concise
+definition inspired a new line of research on analog computation, it contains
+some technical inaccuracies. Focusing on his "primitive recursive" functions,
+we pin down what is problematic and discuss possible attempts to remove the
+ambiguity regarding the behavior of the differential recursion operator on
+partial functions. It turns out that in any case the purported relation to
+differentially algebraic functions, and hence to Shannon's model of analog
+computation, fails.
+</dc:description><dc:description>Comment: 14 pages, 3 figures</dc:description><dc:date>2007-04-03</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0301</dc:identifier><dc:identifier>Revised and published in ACM Trans. Comput. Logic 10, Article 22,
+  2009, under the title "Differential Recursion".</dc:identifier><dc:identifier>doi:10.1145/1507244.1507252</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0304</ns0:identifier><ns0:datestamp>2013-04-05</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>The World as Evolving Information</dc:title><dc:creator>Gershenson, Carlos</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:subject>Computer Science - Artificial Intelligence</dc:subject><dc:subject>Quantitative Biology - Populations and Evolution</dc:subject><dc:subject>H.1.1</dc:subject><dc:description>  This paper discusses the benefits of describing the world as information,
+especially in the study of the evolution of life and cognition. Traditional
+studies encounter problems because it is difficult to describe life and
+cognition in terms of matter and energy, since their laws are valid only at the
+physical scale. However, if matter and energy, as well as life and cognition,
+are described in terms of information, evolution can be described consistently
+as information becoming more complex.
+  The paper presents eight tentative laws of information, valid at multiple
+scales, which are generalizations of Darwinian, cybernetic, thermodynamic,
+psychological, philosophical, and complexity principles. These are further used
+to discuss the notions of life, cognition and their evolution.
+</dc:description><dc:description>Comment: 16 pages. Extended version, three more laws of information, two
+  classifications, and discussion added. To be published (soon) in
+  International Conference on Complex Systems 2007 Proceedings</dc:description><dc:date>2007-04-02</dc:date><dc:date>2010-10-13</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0304</dc:identifier><dc:identifier>Minai, A., Braha, D., and Bar-Yam, Y., eds. Unifying Themes in
+  Complex Systems VII, pp. 100-115. Springer, Berlin Heidelberg, 2012</dc:identifier><dc:identifier>doi:10.1007/978-3-642-18003-3_10</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0309</ns0:identifier><ns0:datestamp>2011-11-09</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>The Complexity of HCP in Digraps with Degree Bound Two</dc:title><dc:creator>Zhu, Guohun</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:subject>Computer Science - Discrete Mathematics</dc:subject><dc:description>  The Hamiltonian cycle problem (HCP) in digraphs D with degree bound two is
+solved by two mappings in this paper. The first bijection is between an
+incidence matrix C_{nm} of simple digraph and an incidence matrix F of balanced
+bipartite undirected graph G; The second mapping is from a perfect matching of
+G to a cycle of D. It proves that the complexity of HCP in D is polynomial, and
+finding a second non-isomorphism Hamiltonian cycle from a given Hamiltonian
+digraph with degree bound two is also polynomial. Lastly it deduces P=NP base
+on the results.
+</dc:description><dc:description>Comment: 10 pages, 4 figures, had been submitted to a Journal</dc:description><dc:date>2007-04-02</dc:date><dc:date>2007-07-12</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0309</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0361</ns0:identifier><ns0:datestamp>2016-11-18</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Pseudo-random Puncturing: A Technique to Lower the Error Floor of Turbo
+  Codes</dc:title><dc:creator>Chatzigeorgiou, Ioannis</dc:creator><dc:creator>Rodrigues, Miguel R. D.</dc:creator><dc:creator>Wassell, Ian J.</dc:creator><dc:creator>Carrasco, Rolando</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  It has been observed that particular rate-1/2 partially systematic parallel
+concatenated convolutional codes (PCCCs) can achieve a lower error floor than
+that of their rate-1/3 parent codes. Nevertheless, good puncturing patterns can
+only be identified by means of an exhaustive search, whilst convergence towards
+low bit error probabilities can be problematic when the systematic output of a
+rate-1/2 partially systematic PCCC is heavily punctured. In this paper, we
+present and study a family of rate-1/2 partially systematic PCCCs, which we
+call pseudo-randomly punctured codes. We evaluate their bit error rate
+performance and we show that they always yield a lower error floor than that of
+their rate-1/3 parent codes. Furthermore, we compare analytic results to
+simulations and we demonstrate that their performance converges towards the
+error floor region, owning to the moderate puncturing of their systematic
+output. Consequently, we propose pseudo-random puncturing as a means of
+improving the bandwidth efficiency of a PCCC and simultaneously lowering its
+error floor.
+</dc:description><dc:description>Comment: 5 pages, 1 figure, Proceedings of the 2007 IEEE International
+  Symposium on Information Theory, Nice, France, June 24-29, 2007</dc:description><dc:date>2007-04-03</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0361</dc:identifier><dc:identifier>doi:10.1109/ISIT.2007.4557299</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0468</ns0:identifier><ns0:datestamp>2009-03-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Inapproximability of Maximum Weighted Edge Biclique and Its Applications</dc:title><dc:creator>Tan, Jinsong</dc:creator><dc:subject>Computer Science - Computational Complexity</dc:subject><dc:subject>Computer Science - Data Structures and Algorithms</dc:subject><dc:subject>F.2.0</dc:subject><dc:description>  Given a bipartite graph $G = (V_1,V_2,E)$ where edges take on {\it both}
+positive and negative weights from set $\mathcal{S}$, the {\it maximum weighted
+edge biclique} problem, or $\mathcal{S}$-MWEB for short, asks to find a
+bipartite subgraph whose sum of edge weights is maximized. This problem has
+various applications in bioinformatics, machine learning and databases and its
+(in)approximability remains open. In this paper, we show that for a wide range
+of choices of $\mathcal{S}$, specifically when $| \frac{\min\mathcal{S}} {\max
+\mathcal{S}} | \in \Omega(\eta^{\delta-1/2}) \cap O(\eta^{1/2-\delta})$ (where
+$\eta = \max\{|V_1|, |V_2|\}$, and $\delta \in (0,1/2]$), no polynomial time
+algorithm can approximate $\mathcal{S}$-MWEB within a factor of $n^{\epsilon}$
+for some $\epsilon &gt; 0$ unless $\mathsf{RP = NP}$. This hardness result gives
+justification of the heuristic approaches adopted for various applied problems
+in the aforementioned areas, and indicates that good approximation algorithms
+are unlikely to exist. Specifically, we give two applications by showing that:
+1) finding statistically significant biclusters in the SAMBA model, proposed in
+\cite{Tan02} for the analysis of microarray data, is
+$n^{\epsilon}$-inapproximable; and 2) no polynomial time algorithm exists for
+the Minimum Description Length with Holes problem \cite{Bu05} unless
+$\mathsf{RP=NP}$.
+</dc:description><dc:date>2007-04-03</dc:date><dc:date>2009-03-22</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0468</dc:identifier><dc:identifier>LNCS 4978, TAMC 2008, pp 282-293</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0492</ns0:identifier><ns0:datestamp>2010-02-04</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Refuting the Pseudo Attack on the REESSE1+ Cryptosystem</dc:title><dc:creator>Su, Shenghui</dc:creator><dc:creator>Lu, Shuwang</dc:creator><dc:subject>Computer Science - Cryptography and Security</dc:subject><dc:description>  We illustrate through example 1 and 2 that the condition at theorem 1 in [8]
+dissatisfies necessity, and the converse proposition of fact 1.1 in [8] does
+not hold, namely the condition Z/M - L/Ak &lt; 1/(2 Ak^2) is not sufficient for
+f(i) + f(j) = f(k). Illuminate through an analysis and ex.3 that there is a
+logic error during deduction of fact 1.2, which causes each of fact 1.2, 1.3, 4
+to be invalid. Demonstrate through ex.4 and 5 that each or the combination of
+qu+1 &gt; qu * D at fact 4 and table 1 at fact 2.2 is not sufficient for f(i) +
+f(j) = f(k), property 1, 2, 3, 4, 5 each are invalid, and alg.1 based on fact 4
+and alg.2 based on table 1 are disordered and wrong logically. Further,
+manifest through a repeated experiment and ex.5 that the data at table 2 is
+falsified, and the example in [8] is woven elaborately. We explain why Cx = Ax
+* W^f(x) (% M) is changed to Cx = (Ax * W^f(x))^d (% M) in REESSE1+ v2.1. To
+the signature fraud, we point out that [8] misunderstands the existence of T^-1
+and Q^-1 % (M-1), and forging of Q can be easily avoided through moving H.
+Therefore, the conclusion of [8] that REESSE1+ is not secure at all (which
+connotes that [8] can extract a related private key from any public key in
+REESSE1+) is fully incorrect, and as long as the parameter Omega is fitly
+selected, REESSE1+ with Cx = Ax * W^f(x) (% M) is secure.
+</dc:description><dc:description>Comment: 14 pages, and 2 table</dc:description><dc:date>2007-04-04</dc:date><dc:date>2010-02-04</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0492</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0499</ns0:identifier><ns0:datestamp>2010-04-15</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Optimal Routing for Decode-and-Forward based Cooperation in Wireless
+  Networks</dc:title><dc:creator>Ong, Lawrence</dc:creator><dc:creator>Motani, Mehul</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  We investigate cooperative wireless relay networks in which the nodes can
+help each other in data transmission. We study different coding strategies in
+the single-source single-destination network with many relay nodes. Given the
+myriad of ways in which nodes can cooperate, there is a natural routing
+problem, i.e., determining an ordered set of nodes to relay the data from the
+source to the destination. We find that for a given route, the
+decode-and-forward strategy, which is an information theoretic cooperative
+coding strategy, achieves rates significantly higher than that achievable by
+the usual multi-hop coding strategy, which is a point-to-point non-cooperative
+coding strategy. We construct an algorithm to find an optimal route (in terms
+of rate maximizing) for the decode-and-forward strategy. Since the algorithm
+runs in factorial time in the worst case, we propose a heuristic algorithm that
+runs in polynomial time. The heuristic algorithm outputs an optimal route when
+the nodes transmit independent codewords. We implement these coding strategies
+using practical low density parity check codes to compare the performance of
+the strategies on different routes.
+</dc:description><dc:description>Comment: Accepted and to be presented at Fourth Annual IEEE Communications
+  Society Conference on Sensor, Mesh, and Ad Hoc Communications and Networks
+  (SECON 2007), San Diego, California, June 18-21 2007</dc:description><dc:date>2007-04-04</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0499</dc:identifier><dc:identifier>Proceedings of the 4th Annual IEEE Communications Society
+  Conference on Sensor, Mesh, and Ad Hoc Communications and Networks (SECON
+  2007), San Diego, CA, pp. 334-343, Jun. 18-21 2007.</dc:identifier><dc:identifier>doi:10.1109/SAHCN.2007.4292845</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0528</ns0:identifier><ns0:datestamp>2007-07-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Many-to-One Throughput Capacity of IEEE 802.11 Multi-hop Wireless
+  Networks</dc:title><dc:creator>Chan, Chi Pan</dc:creator><dc:creator>Liew, Soung Chang</dc:creator><dc:creator>Chan, An</dc:creator><dc:subject>Computer Science - Networking and Internet Architecture</dc:subject><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  This paper investigates the many-to-one throughput capacity (and by symmetry,
+one-to-many throughput capacity) of IEEE 802.11 multi-hop networks. It has
+generally been assumed in prior studies that the many-to-one throughput
+capacity is upper-bounded by the link capacity L. Throughput capacity L is not
+achievable under 802.11. This paper introduces the notion of "canonical
+networks", which is a class of regularly-structured networks whose capacities
+can be analyzed more easily than unstructured networks. We show that the
+throughput capacity of canonical networks under 802.11 has an analytical upper
+bound of 3L/4 when the source nodes are two or more hops away from the sink;
+and simulated throughputs of 0.690L (0.740L) when the source nodes are many
+hops away. We conjecture that 3L/4 is also the upper bound for general
+networks. When all links have equal length, 2L/3 can be shown to be the upper
+bound for general networks. Our simulations show that 802.11 networks with
+random topologies operated with AODV routing can only achieve throughputs far
+below the upper bounds. Fortunately, by properly selecting routes near the
+gateway (or by properly positioning the relay nodes leading to the gateway) to
+fashion after the structure of canonical networks, the throughput can be
+improved significantly by more than 150%. Indeed, in a dense network, it is
+worthwhile to deactivate some of the relay nodes near the sink judiciously.
+</dc:description><dc:date>2007-04-04</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0528</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0540</ns0:identifier><ns0:datestamp>2007-07-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>On the Achievable Rate Regions for Interference Channels with Degraded
+  Message Sets</dc:title><dc:creator>Jiang, Jinhua</dc:creator><dc:creator>Yan, Xin</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  The interference channel with degraded message sets (IC-DMS) refers to a
+communication model in which two senders attempt to communicate with their
+respective receivers simultaneously through a common medium, and one of the
+senders has complete and a priori (non-causal) knowledge about the message
+being transmitted by the other. A coding scheme that collectively has
+advantages of cooperative coding, collaborative coding, and dirty paper coding,
+is developed for such a channel. With resorting to this coding scheme,
+achievable rate regions of the IC-DMS in both discrete memoryless and Gaussian
+cases are derived, which, in general, include several previously known rate
+regions. Numerical examples for the Gaussian case demonstrate that in the
+high-interference-gain regime, the derived achievable rate regions offer
+considerable improvements over these existing results.
+</dc:description><dc:description>Comment: 22 pages, 8 figures, submitted to IEEE Trans. Inform. Theory</dc:description><dc:date>2007-04-04</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0540</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0590</ns0:identifier><ns0:datestamp>2016-11-17</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>A Low Complexity Algorithm and Architecture for Systematic Encoding of
+  Hermitian Codes</dc:title><dc:creator>Agarwal, Rachit</dc:creator><dc:creator>Koetter, Ralf</dc:creator><dc:creator>Popovici, Emanuel</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  We present an algorithm for systematic encoding of Hermitian codes. For a
+Hermitian code defined over GF(q^2), the proposed algorithm achieves a run time
+complexity of O(q^2) and is suitable for VLSI implementation. The encoder
+architecture uses as main blocks q varying-rate Reed-Solomon encoders and
+achieves a space complexity of O(q^2) in terms of finite field multipliers and
+memory elements.
+</dc:description><dc:description>Comment: 5 Pages, Accepted in IEEE International Symposium on Information
+  Theory ISIT 2007</dc:description><dc:date>2007-04-04</dc:date><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0590</dc:identifier><dc:identifier>doi:10.1109/ISIT.2007.4557408</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0671</ns0:identifier><ns0:datestamp>2016-11-15</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Learning from compressed observations</dc:title><dc:creator>Raginsky, Maxim</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:subject>Computer Science - Machine Learning</dc:subject><dc:description>  The problem of statistical learning is to construct a predictor of a random
+variable $Y$ as a function of a related random variable $X$ on the basis of an
+i.i.d. training sample from the joint distribution of $(X,Y)$. Allowable
+predictors are drawn from some specified class, and the goal is to approach
+asymptotically the performance (expected loss) of the best predictor in the
+class. We consider the setting in which one has perfect observation of the
+$X$-part of the sample, while the $Y$-part has to be communicated at some
+finite bit rate. The encoding of the $Y$-values is allowed to depend on the
+$X$-values. Under suitable regularity conditions on the admissible predictors,
+the underlying family of probability distributions and the loss function, we
+give an information-theoretic characterization of achievable predictor
+performance in terms of conditional distortion-rate functions. The ideas are
+illustrated on the example of nonparametric regression in Gaussian noise.
+</dc:description><dc:description>Comment: 6 pages; submitted to the 2007 IEEE Information Theory Workshop (ITW
+  2007)</dc:description><dc:date>2007-04-04</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0671</dc:identifier><dc:identifier>doi:10.1109/ITW.2007.4313111</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0730</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Revisiting the Issues On Netflow Sample and Export Performance</dc:title><dc:creator>Haddadi, Hamed</dc:creator><dc:creator>Landa, Raul</dc:creator><dc:creator>Rio, Miguel</dc:creator><dc:creator>Bhatti, Saleem</dc:creator><dc:subject>Computer Science - Performance</dc:subject><dc:subject>Computer Science - Networking and Internet Architecture</dc:subject><dc:subject>G.3</dc:subject><dc:description>  The high volume of packets and packet rates of traffic on some router links
+makes it exceedingly difficult for routers to examine every packet in order to
+keep detailed statistics about the traffic which is traversing the router.
+Sampling is commonly applied on routers in order to limit the load incurred by
+the collection of information that the router has to undertake when evaluating
+flow information for monitoring purposes. The sampling process in nearly all
+cases is a deterministic process of choosing 1 in every N packets on a
+per-interface basis, and then forming the flow statistics based on the
+collected sampled statistics. Even though this sampling may not be significant
+for some statistics, such as packet rate, others can be severely distorted.
+However, it is important to consider the sampling techniques and their relative
+accuracy when applied to different traffic patterns. The main disadvantage of
+sampling is the loss of accuracy in the collected trace when compared to the
+original traffic stream. To date there has not been a detailed analysis of the
+impact of sampling at a router in various traffic profiles and flow criteria.
+In this paper, we assess the performance of the sampling process as used in
+NetFlow in detail, and we discuss some techniques for the compensation of loss
+of monitoring detail.
+</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0730</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0788</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Optimal Synthesis of Multiple Algorithms</dc:title><dc:creator>Soileau, Kerry M.</dc:creator><dc:subject>Computer Science - Data Structures and Algorithms</dc:subject><dc:subject>Computer Science - Performance</dc:subject><dc:description>  In this paper we give a definition of "algorithm," "finite algorithm,"
+"equivalent algorithms," and what it means for a single algorithm to dominate a
+set of algorithms. We define a derived algorithm which may have a smaller mean
+execution time than any of its component algorithms. We give an explicit
+expression for the mean execution time (when it exists) of the derived
+algorithm. We give several illustrative examples of derived algorithms with two
+component algorithms. We include mean execution time solutions for
+two-algorithm processors whose joint density of execution times are of several
+general forms. For the case in which the joint density for a two-algorithm
+processor is a step function, we give a maximum-likelihood estimation scheme
+with which to analyze empirical processing time data.
+</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0788</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0802</ns0:identifier><ns0:datestamp>2012-08-27</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Hybrid-ARQ in Multihop Networks with Opportunistic Relay Selection</dc:title><dc:creator>Lo, Caleb K.</dc:creator><dc:creator>Heath, Jr., Robert W.</dc:creator><dc:creator>Vishwanath, Sriram</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  This paper develops a contention-based opportunistic feedback technique
+towards relay selection in a dense wireless network. This technique enables the
+forwarding of additional parity information from the selected relay to the
+destination. For a given network, the effects of varying key parameters such as
+the feedback probability are presented and discussed. A primary advantage of
+the proposed technique is that relay selection can be performed in a
+distributed way. Simulation results find its performance to closely match that
+of centralized schemes that utilize GPS information, unlike the proposed
+method. The proposed relay selection method is also found to achieve throughput
+gains over a point-to-point transmission strategy.
+</dc:description><dc:description>Comment: 4 pages, 5 figures, to appear in Proceedings of the 2007
+  International Conference on Acoustics, Speech, and Signal Processing in
+  Honolulu, HI</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0802</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0805</ns0:identifier><ns0:datestamp>2016-11-17</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Opportunistic Relay Selection with Limited Feedback</dc:title><dc:creator>Lo, Caleb K.</dc:creator><dc:creator>Heath, Jr., Robert W.</dc:creator><dc:creator>Vishwanath, Sriram</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  It has been shown that a decentralized relay selection protocol based on
+opportunistic feedback from the relays yields good throughput performance in
+dense wireless networks. This selection strategy supports a hybrid-ARQ
+transmission approach where relays forward parity information to the
+destination in the event of a decoding error. Such an approach, however,
+suffers a loss compared to centralized strategies that select relays with the
+best channel gain to the destination. This paper closes the performance gap by
+adding another level of channel feedback to the decentralized relay selection
+problem. It is demonstrated that only one additional bit of feedback is
+necessary for good throughput performance. The performance impact of varying
+key parameters such as the number of relays and the channel feedback threshold
+is discussed. An accompanying bit error rate analysis demonstrates the
+importance of relay selection.
+</dc:description><dc:description>Comment: 5 pages, 6 figures, to appear in Proceedings of 2007 IEEE Vehicular
+  Technology Conference-Spring in Dublin, Ireland</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0805</dc:identifier><dc:identifier>doi:10.1109/VETECS.2007.40</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0831</ns0:identifier><ns0:datestamp>2007-07-13</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>On packet lengths and overhead for random linear coding over the erasure
+  channel</dc:title><dc:creator>Shrader, Brooke</dc:creator><dc:creator>Ephremides, Anthony</dc:creator><dc:subject>Computer Science - Information Theory</dc:subject><dc:description>  We assess the practicality of random network coding by illuminating the issue
+of overhead and considering it in conjunction with increasingly long packets
+sent over the erasure channel. We show that the transmission of increasingly
+long packets, consisting of either of an increasing number of symbols per
+packet or an increasing symbol alphabet size, results in a data rate
+approaching zero over the erasure channel. This result is due to an erasure
+probability that increases with packet length. Numerical results for a
+particular modulation scheme demonstrate a data rate of approximately zero for
+a large, but finite-length packet. Our results suggest a reduction in the
+performance gains offered by random network coding.
+</dc:description><dc:description>Comment: 5 pages, 5 figures, submitted to the 2007 International Wireless
+  Communications and Mobile Computing Conference</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0831</dc:identifier></ns1:dc></ns0:metadata></ns0:record><ns0:record><ns0:header><ns0:identifier>oai:arXiv.org:0704.0834</ns0:identifier><ns0:datestamp>2007-05-23</ns0:datestamp><ns0:setSpec>cs</ns0:setSpec></ns0:header><ns0:metadata><ns1:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>P-adic arithmetic coding</dc:title><dc:creator>Rodionov, Anatoly</dc:creator><dc:creator>Volkov, Sergey</dc:creator><dc:subject>Computer Science - Data Structures and Algorithms</dc:subject><dc:subject>H.1.1</dc:subject><dc:description>  A new incremental algorithm for data compression is presented. For a sequence
+of input symbols algorithm incrementally constructs a p-adic integer number as
+an output. Decoding process starts with less significant part of a p-adic
+integer and incrementally reconstructs a sequence of input symbols. Algorithm
+is based on certain features of p-adic numbers and p-adic norm. p-adic coding
+algorithm may be considered as of generalization a popular compression
+technique - arithmetic coding algorithms. It is shown that for p = 2 the
+algorithm works as integer variant of arithmetic coding; for a special class of
+models it gives exactly the same codes as Huffman's algorithm, for another
+special model and a specific alphabet it gives Golomb-Rice codes.
+</dc:description><dc:description>Comment: 29 pages</dc:description><dc:date>2007-04-05</dc:date><dc:type>text</dc:type><dc:identifier>http://arxiv.org/abs/0704.0834</dc:identifier></ns1:dc></ns0:metadata></ns0:record></records>

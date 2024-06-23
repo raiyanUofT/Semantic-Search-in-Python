@@ -1,44 +1,54 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="card">
-  <div class="card-body">
-    <h1 class="text-center text-primary">Smart Search Engine</h1>
-    <form method="POST" class="mt-4">
-      <div class="form-group">
-        <input type="text" class="form-control" name="query" placeholder="Enter your query (e.g., 'photosynthesis', 'climate change impacts')" required>
-      </div>
-      <div class="form-group">
-        <label for="searchType">Choose search type:</label><br>
-        <input type="radio" name="search_type" value="keyword" required> Keyword Search<br>
-        <input type="radio" name="search_type" value="semantic" required> Semantic Search
-      </div>
-      <button type="submit" class="btn btn-success btn-block" data-toggle="tooltip" data-placement="right" title="Click to start the search">Search</button>
-    </form>
-    
-    {% if results %}
-    <h2 class="mt-5 text-success">Results for "{{ query }}" ({{ search_type }} search)</h2>
-    <table class="table table-striped mt-3">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">Rank</th>
-          <th scope="col">Filename</th>
-          <th scope="col">Text</th>
-          <th scope="col">Score</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for result in results %}
-        <tr>
-          <th scope="row">{{ loop.index }}</th>
-          <td>{{ result['_source']['filename'] }}</td>
-          <td>{{ result['_source']['text'][:200] }}...</td>
-          <td>{{ result['_score'] }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    {% endif %}
-  </div>
+<div class="mt-5">
+  <h1 class="text-center text-primary">Smart Search Engine</h1>
+  <form method="POST" class="mt-4">
+    <div class="form-group">
+      <input type="text" class="form-control" name="query" placeholder="Enter your query" required>
+    </div>
+    <div class="form-group">
+      <label for="searchType">Choose search type:</label><br>
+      <input type="radio" name="search_type" value="keyword" required> Keyword Search<br>
+      <input type="radio" name="search_type" value="semantic" required> Semantic Search
+    </div>
+    <button type="submit" class="btn btn-success btn-block">Search</button>
+  </form>
+  
+  {% if results %}
+  <h2 class="mt-5 text-success">Results for "{{ query }}" ({{ search_type }} search)</h2>
+  <table class="table table-striped mt-3">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Rank</th>
+        <th scope="col">Title</th>
+        <th scope="col">Summary</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for result in results %}
+      <tr>
+        <th scope="row">{{ loop.index }}</th>
+        <td>{{ result['_source'].title if result['_source'].title else 'No title available' }}</td>
+        <td>{{ result['_source'].summary if result['_source'].summary else 'No summary available' }}</td>
+        <td>{{ result['_score'] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+  
+  {% if history %}
+  <h2 class="mt-5 text-info">Search History</h2>
+  <ul class="list-group">
+    {% for entry in history %}
+    <li class="list-group-item">
+      <strong>Query:</strong> {{ entry.query }} <br>
+      <strong>Search Type:</strong> {{ entry.search_type }}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 </div>
 {% endblock %}
